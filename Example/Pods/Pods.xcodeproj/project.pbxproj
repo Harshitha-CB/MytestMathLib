@@ -10,7 +10,8 @@
 		0AC92EF1842CA1C6C5E0AC13734C6E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1C9AAE94CA00673998945C285328C2F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3178064BB498715D0BFB65D0B375958D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		365FF9F2284F274C00205753 /* MathUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365FF9F1284F274C00205753 /* MathUtility.swift */; };
+		365FF9F4284F2E0500205753 /* MathUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365FF9F3284F2E0500205753 /* MathUtility.swift */; };
+		365FF9F5284F2E0500205753 /* MathUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365FF9F3284F2E0500205753 /* MathUtility.swift */; };
 		3A66DFC22419CD3CBBCCEF96BA32C478 /* MytestMathLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A37B48D9EED6BFFFD75AF41A00FC5C6F /* MytestMathLib-dummy.m */; };
 		6910E34ED6D1E5C7B05132A9A4D155FF /* Pods-MytestMathLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D335F6A2CCA6D825A825B04AA4C00C1 /* Pods-MytestMathLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C9C74DC94A6D8EE7273A13BBBF404FA /* MytestMathLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B79CF4A1AB10D419A127624E286100B8 /* MytestMathLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +44,7 @@
 		2AE63F2C8305A22CEA9B809D9B8E73BC /* MytestMathLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MytestMathLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		354E06B4A5FBB650CE3661FCDB683FD5 /* Pods-MytestMathLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MytestMathLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35730A909F00AF29D55571CC3999D114 /* Pods-MytestMathLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MytestMathLib_Example-Info.plist"; sourceTree = "<group>"; };
-		365FF9F1284F274C00205753 /* MathUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtility.swift; sourceTree = "<group>"; };
+		365FF9F3284F2E0500205753 /* MathUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtility.swift; sourceTree = "<group>"; };
 		3D335F6A2CCA6D825A825B04AA4C00C1 /* Pods-MytestMathLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MytestMathLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		3FC41FDFC99871E683C81E27E12471EE /* Pods-MytestMathLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MytestMathLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		4436BEF886F2C7036D824FD283D26564 /* MytestMathLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MytestMathLib.modulemap; sourceTree = "<group>"; };
@@ -69,7 +70,7 @@
 		E89951201913F69F41DBB64D40709CD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EAB199218D6638F6F179AE4C8B64C009 /* Pods-MytestMathLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MytestMathLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		F3820929E6E8437AB1DC5BAABC24A1B2 /* Pods-MytestMathLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MytestMathLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F57A7DE155AADBB3F474AFBCC550A847 /* MytestMathLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MytestMathLib; path = MytestMathLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57A7DE155AADBB3F474AFBCC550A847 /* MytestMathLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MytestMathLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +112,7 @@
 		365FF9F0284F272C00205753 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				365FF9F1284F274C00205753 /* MathUtility.swift */,
+				365FF9F3284F2E0500205753 /* MathUtility.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -179,7 +180,7 @@
 		A964BC8880ED405BF65CBBD1F94BDE26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F57A7DE155AADBB3F474AFBCC550A847 /* MytestMathLib */,
+				F57A7DE155AADBB3F474AFBCC550A847 /* MytestMathLib.framework */,
 				D6027023A2AC3BDF6630C44241A78B00 /* Pods-MytestMathLib_Example */,
 				A896A828BB92BEF0A6040A89CCA9CBD6 /* Pods_MytestMathLib_Tests.framework */,
 			);
@@ -295,7 +296,7 @@
 			);
 			name = MytestMathLib;
 			productName = MytestMathLib;
-			productReference = F57A7DE155AADBB3F474AFBCC550A847 /* MytestMathLib */;
+			productReference = F57A7DE155AADBB3F474AFBCC550A847 /* MytestMathLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA68ACD0855883B5945D5D09AA160F43 /* Pods-MytestMathLib_Tests */ = {
@@ -326,6 +327,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					5BEC74056D2DCEF8E0EC2792818547C3 = {
+						LastSwiftMigration = 1320;
+					};
 					FA68ACD0855883B5945D5D09AA160F43 = {
 						LastSwiftMigration = 1320;
 					};
@@ -388,7 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				365FF9F2284F274C00205753 /* MathUtility.swift in Sources */,
+				365FF9F5284F2E0500205753 /* MathUtility.swift in Sources */,
 				D3A2FBD8F3312EE0552DB0E627475810 /* Pods-MytestMathLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365FF9F4284F2E0500205753 /* MathUtility.swift in Sources */,
 				3A66DFC22419CD3CBBCCEF96BA32C478 /* MytestMathLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2818687CCE771C1B43F3D9FC8534266F /* MytestMathLib.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -553,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AC37C7F9401C06EF9DB18BDA211DBCD /* MytestMathLib.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -572,6 +579,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

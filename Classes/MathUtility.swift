@@ -1,6 +1,6 @@
 //
 //  MathUtility.swift
-//  Pods-MytestMathLib_Tests
+//  Pods
 //
 //  Created by Capgemini_DA078 on 6/6/22.
 //
