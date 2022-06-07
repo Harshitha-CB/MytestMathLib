@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+This is simple library of basic Mathematical functions
+                  DESC
 
   s.homepage         = 'https://github.com/Harshith-CB/MytestMathLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'MytestMathLib/Classes/**/*'
+  s.swift_versions = '5.0'
+  
+    s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'MytestMathLib' => ['MytestMathLib/Assets/*.png']
