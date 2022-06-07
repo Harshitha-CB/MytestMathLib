@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MytestMathLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'math functionalities'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ s.description      = <<-DESC
 This is simple library of basic Mathematical functions
                   DESC
 
-  s.homepage         = 'https://github.com/Harshith-CB/MytestMathLib'
+  s.homepage         = 'https://github.com/Harshitha-CB/MytestMathLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Harshith-CB' => 'harshithaneygar@gmail.com' }
-  s.source           = { :git => 'https://github.com/Harshith-CB/MytestMathLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Harshitha-CB/MytestMathLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
