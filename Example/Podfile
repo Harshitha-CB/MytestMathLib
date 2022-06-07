@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MytestMathLib_Example' do
+  pod 'MytestMathLib', :path => '../'
+
+  target 'MytestMathLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
