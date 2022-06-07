@@ -1,0 +1,16 @@
+PODS:
+  - MytestMathLib (0.1.0)
+
+DEPENDENCIES:
+  - MytestMathLib (from `../`)
+
+EXTERNAL SOURCES:
+  MytestMathLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MytestMathLib: 910006022bd4d96959aa24833f80fa0433750c3f
+
+PODFILE CHECKSUM: 1d05f4eb39f7413c19246f618605fe66cdcaaa78
+
+COCOAPODS: 1.11.3
